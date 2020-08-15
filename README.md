@@ -6,7 +6,7 @@
 
 2.项目中引入aar，初始化路径
 ```java
-class Test {
+public class Test {
     private File mExternalReportPath;
     private void initBreakPad() {
         if (mExternalReportPath == null) {
