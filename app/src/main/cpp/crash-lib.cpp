@@ -4,7 +4,7 @@
 void crash();
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_zhd_googlebreakpad_MainActivity_crashDump(
+Java_com_test_googlebreakpad_MainActivity_crashDump(
         JNIEnv *env,
         jobject /* this */) {
     crash();
