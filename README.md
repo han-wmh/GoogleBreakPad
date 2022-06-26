@@ -29,8 +29,11 @@ mv xxxxxxxxx.dmp crash0.dmp
 **adb pull 解决问题：**
 
 xxx\AndroidStudio\bin\lldb\bin> minidump_stackwalk.exe xxx\xxx\crash0.dmp > xxx\xxx\11111.txt
+
 2020-08-14 10:05:43: minidump.cc:4740: ERROR: Minidump could not open minidump xxx\xxx\crash0.dmp, error 2: No such file or directory
+
 2020-08-14 10:05:44: minidump.cc:4834: ERROR: Minidump cannot open minidump
+
 2020-08-14 10:05:44: minidump_stackwalk.cc:87: ERROR: Minidump xxx\xxx\crash0.dump could not be read
 
 - 5.xxx\AndroidStudio\bin\lldb\bin> minidump_stackwalk.exe xxx\xxx\crash0.dmp > xxx\xxx\11111.txt
