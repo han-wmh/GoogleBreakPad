@@ -48,5 +48,8 @@ Thread 0 (crashed)
 - 6.使用addr2line.exe获取崩溃堆栈
 
 命令：xxx\xx-addr2line.exe -f -C -e \xxx\xxx.so 寄存器信息
-"your ndk path"\toolchains\arm-linux-androideabi-4.9\prebuilt\"cpu 架构（如windows-x86_64)"\bin\arm-linux-androideabi-addr2line.exe -f -C -e "your so name
-(如libcrash-lib.so) 0x612
+"your ndk path"\toolchains\arm-linux-androideabi-4.9\prebuilt\"cpu 架构
+
+example: 
+
+windows-x86_64)"\bin\arm-linux-androideabi-addr2line.exe -f -C -e "your so name(如libcrash-lib.so) 0x612
