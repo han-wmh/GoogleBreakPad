@@ -1,7 +1,11 @@
-源码来自[Gitee项目](https://gitee.com/wufanguitar/GoogleBreakpad?_from=gitee_search)
+源码来自
+
+[Gitee项目](https://gitee.com/wufanguitar/GoogleBreakpad?_from=gitee_search)
+
 [linux_syscall_support.h](https://github.com/han-wmh/linuxSysCallSupportll)
 
-用法：
+**用法：**
+- local.properties add ndk path: ndk.dir=xxx\\15.2.4203891
 
 - 1.编译模块breakpad.aar
 
@@ -44,12 +48,11 @@ Thread 0 (crashed)
 
  0x612为 发生 crash 的位置和寄存器信息
 
- 
-- 6.使用addr2line.exe获取崩溃堆栈
 
+- 6.使用addr2line.exe获取崩溃堆栈
 命令：xxx\xx-addr2line.exe -f -C -e \xxx\xxx.so 寄存器信息
 "your ndk path"\toolchains\arm-linux-androideabi-4.9\prebuilt\"cpu 架构
 
-example: 
+example:
 
-windows-x86_64)"\bin\arm-linux-androideabi-addr2line.exe -f -C -e "your so name(如libcrash-lib.so) 0x612
+（windows-x86_64)"\bin\arm-linux-androideabi-addr2line.exe -f -C -e "your so name(如libcrash-lib.so) 0x612
